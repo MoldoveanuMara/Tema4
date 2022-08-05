@@ -1,0 +1,14 @@
+INSERT INTO orderdetails VALUES (1,"CodProdus1",1);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus2",3);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus3",2);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus4",4);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus5",2);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus6",5);
+INSERT INTO orderdetails (product_code,quantity) VALUES ("CodProdus7",1);
+INSERT INTO orders (id,order_date,shipped_date,status,customer_id,order_details_id) VALUES (1,"2022-06-30","2022-07-01","delivered",3,3);
+INSERT INTO orders (order_date,shipped_date,status,customer_id,order_details_id) VALUES ("2022-07-01","2022-07-02","shipped...",1,1);
+INSERT INTO orders (order_date,shipped_date,status,customer_id,order_details_id) VALUES ("2022-07-02","2022-07-03","delay",8,4);
+INSERT INTO orders (order_date,status,customer_id,order_details_id) VALUES ("2022-07-03","in progress...",6,5);
+INSERT INTO orders (order_date,shipped_date,status,customer_id,order_details_id) VALUES ("2022-07-04","2022-07-05","shipped...",5,7);
+INSERT INTO orders (order_date,shipped_date,status,customer_id,order_details_id) VALUES ("2022-07-05","2022-07-06","shipped...",3,2);
+INSERT INTO orders (order_date,shipped_date,status,customer_id,order_details_id) VALUES ("2022-07-06","2022-07-07","shipped...",7,6);
